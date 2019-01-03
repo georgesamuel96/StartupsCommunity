@@ -56,7 +56,7 @@
             android:layout_height="@dimen/_46sdp"
             android:layout_below="@id/title_news"
             android:layout_alignLeft="@id/img_news"
-            android:text="Egyptifdsfsdfsfsdsfsdfsdfdsfdsfdsfdsfdsfdsfdsfan Egyptian Startups Egyptian Egyptian Startups Egyptian Startups Egyptian Startups Egyptian Startups Egyptian Startups"
+            android:text="Egypt Egyptian Startups Egyptian Egyptian Startups Egyptian Startups Egyptian Startups Egyptian Startups Egyptian Startups"
             android:layout_marginTop="@dimen/_4sdp"
             android:textSize="@dimen/_10ssp"
             android:padding="@dimen/_2sdp"

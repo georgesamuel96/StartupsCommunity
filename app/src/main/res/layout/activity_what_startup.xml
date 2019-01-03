@@ -28,7 +28,7 @@
             android:text="@string/startups_community"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_16ssp"
-            android:gravity="center"/>
+            android:gravity="center_vertical"/>
 
     </android.support.v7.widget.Toolbar>
 

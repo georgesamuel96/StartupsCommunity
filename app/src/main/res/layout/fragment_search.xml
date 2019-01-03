@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp"
+        android:hint="@string/search_startup"
+        android:layout_margin="@dimen/_12sdp"
+        android:background="@drawable/text_shape2"
+        android:paddingTop="@dimen/_2sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_2sdp"
+        android:textSize="@dimen/_18ssp"
+        android:drawableRight="@drawable/ic_search_et_24dp"/>
+
+</FrameLayout>

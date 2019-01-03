@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView-profile"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_72sdp"
+    app:cardCornerRadius="@dimen/_4sdp"
+    app:cardElevation="@dimen/_4sdp"
+    android:layout_marginLeft="@dimen/_12sdp"
+    android:layout_marginRight="@dimen/_12sdp"
+    android:layout_marginBottom="@dimen/_8sdp">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="@dimen/_4sdp">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/img_profile"
+           android:layout_width="@dimen/_48sdp"
+           android:layout_height="@dimen/_48sdp"
+           android:src="@drawable/wuzzuf"
+           android:layout_marginLeft="@dimen/_24sdp"
+           android:layout_centerVertical="true"/>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:orientation="vertical"
+           android:layout_marginRight="@dimen/_20sdp"
+           android:layout_marginTop="@dimen/_20sdp"
+           android:gravity="center"
+           android:layout_centerVertical="true">
+
+           <TextView
+               android:id="@+id/name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="George Samuel"
+               android:maxLines="1"
+               android:textSize="@dimen/_11ssp"
+               android:textColor="@color/word"
+               android:fontFamily="monospace"/>
+
+           <TextView
+               android:id="@+id/jop"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:maxLines="1"
+               android:layout_marginTop="@dimen/_4sdp"
+               android:text="Android Developer"
+               android:layout_gravity="center"
+               android:textSize="@dimen/_11ssp"
+               android:fontFamily="monospace"/>
+
+       </LinearLayout>
+
+   </RelativeLayout>
+
+</android.support.v7.widget.CardView>

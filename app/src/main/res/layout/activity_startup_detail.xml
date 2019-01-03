@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartupDetailActivity"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_145sdp"
+        android:background="@drawable/bg_stratup_detail">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:src="@drawable/ic_arrow_left_white_24dp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/startup_profile"
+            android:layout_width="@dimen/_65sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:src="@drawable/wuzzuf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_24sdp"/>
+
+        <TextView
+            android:id="@+id/name_startup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wuzzuf"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:layout_below="@id/startup_profile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_4sdp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="@dimen/_190sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:background="@drawable/bg_ceo"
+        android:layout_centerHorizontal="true"
+        android:elevation="8dp"
+        android:layout_marginTop="@dimen/_130sdp">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_4sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ceo     :"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="monospace"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_8sdp"/>
+
+
+            <TextView
+                android:id="@+id/ceo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Samuel"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="monospace"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_8sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/linear1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/founder"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="monospace"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_8sdp"/>
+
+            <TextView
+                android:id="@+id/founder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="George Samuel"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:fontFamily="monospace"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginLeft="@dimen/_8sdp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/_12sdp"
+        android:layout_below="@id/container"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="monospace"
+        android:text="@string/about_us"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:layout_alignLeft="@id/about_us"
+        android:layout_below="@id/about_us"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_8sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="     George Samuel"
+            android:textSize="@dimen/_12ssp"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/container2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:layout_marginLeft="@dimen/_4sdp">
+
+        <ImageView
+            android:id="@+id/img_facabook"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:src="@drawable/facebook"
+            />
+
+        <ImageView
+            android:id="@+id/img_twitter"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:src="@drawable/twitter"
+            android:layout_marginLeft="@dimen/_4sdp"
+            />
+
+        <ImageView
+            android:id="@+id/img_google"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:src="@drawable/google"
+            android:layout_marginLeft="@dimen/_4sdp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

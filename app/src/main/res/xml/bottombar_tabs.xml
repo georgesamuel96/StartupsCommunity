@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_white_24dp"
+        title="Home"/>
+
+    <tab
+        id="@+id/tab_search"
+        icon="@drawable/ic_search_white_24dp"
+        title="Search"/>
+
+    <tab
+        id="@+id/tab_startups"
+        icon="@drawable/ic_account_white_24dp"
+        title="StartUps"/>
+
+    <tab
+        id="@+id/tab_account"
+        icon="@drawable/ic_account_white_24dp"
+        title="Profile"/>
+
+</tabs>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Egyptian Community</string>
+    <string name="home">Home</string>
+    <string name="entrepreneur_motivation">Entrepreneur Motivation</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="language">عربى</string>
+    <string name="logout">Logout</string>
+    <string name="what_is_startup">Waht is Startup</string>
+    <string name="how_to_register">How To Register</string>
+    <string name="startup_stories">Startup Stories</string>
+    <string name="navdemo">Navigation Drawer Full Demo</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="startups_community">Startups Community</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="startUps">StartUps</string>
+    <string name="learn_more">Learn More</string>
+    <string name="account">Account</string>
+    <string name="already_publish">Already Publish</string>
+    <string name="under_publishing">Under Publishing</string>
+    <string name="just_idea">Just Idea</string>
+    <string name="empty" />
+    <string name="ceo">Ceo     :</string>
+    <string name="founder">Founder :</string>
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="search_startup">Search about Startup</string>
+    <string name="egyptian_startups">Egyptian Startups</string>
+    <string name="go">GO</string>
+    <string name="play">Play</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_148sdp"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/header"
+        android:scaleType="fitXY"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_4sdp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_header"
+        android:layout_width="@dimen/_48sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:src="@drawable/wuzzuf"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_marginLeft="@dimen/_16sdp"/>
+
+    <TextView
+        android:id="@+id/name_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_18sdp"
+        android:text="George Samuel"
+        android:layout_below="@id/profile_header"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/_9ssp"/>
+
+    <TextView
+        android:id="@+id/email_header"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_18sdp"
+        android:text="george.samuel90@yahoo.com"
+        android:layout_below="@id/name_header"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_9ssp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

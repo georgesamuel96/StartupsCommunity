@@ -1,5 +1,9 @@
 # StartupsCommunity
 This app is an exercise on what I have learned from some courses from youtube.
+# App screenshots
+![untitled](https://user-images.githubusercontent.com/30288171/50665339-ea406a80-0fb8-11e9-8a8f-ccdade337a8c.png)
+![untitled](https://user-images.githubusercontent.com/30288171/50665378-21168080-0fb9-11e9-9e29-4d105aff3178.png)
+
 # Features in the application
 Some material design
 
@@ -9,4 +13,3 @@ Intents
 
 Youtube android api
 
-![untitled](https://user-images.githubusercontent.com/30288171/50664400-9a13d900-0fb5-11e9-9c3b-e6eb1284ad9e.png)

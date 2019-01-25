@@ -1,5 +1,5 @@
 # StartupsCommunity
-This app is an exercise on what I have learned from some courses from youtube.
+StartupsCommunity  is an application that show startups and companies in egypt and guide, to create your startup and there is some motivation videos from youtube
 # Features in the application
 Some material design <br>
 Fragments <br>

@@ -4,8 +4,7 @@ This app is an exercise on what I have learned from some courses from youtube.
 Some material design <br>
 Fragments <br>
 Intents <br>
-
-Youtube android api
+Youtube android api <br>
 # App screenshots
 ![untitled](https://user-images.githubusercontent.com/30288171/50665339-ea406a80-0fb8-11e9-8a8f-ccdade337a8c.png)
 ![untitled](https://user-images.githubusercontent.com/30288171/50665439-60dd6800-0fb9-11e9-9d13-67b26947cc05.png)

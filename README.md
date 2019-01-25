@@ -1,11 +1,9 @@
 # StartupsCommunity
 This app is an exercise on what I have learned from some courses from youtube.
 # Features in the application
-Some material design
-
-Fragments
-
-Intents
+Some material design <br>
+Fragments <br>
+Intents <br>
 
 Youtube android api
 # App screenshots
